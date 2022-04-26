@@ -345,13 +345,16 @@
 	position: absolute
 }
 
-body {
 
-	justify-content: center;
-	align-items: center;
+
+html, body {
+	
 
 
 	font-family: Arial, Helvetica, Sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .sakura {
@@ -365,6 +368,9 @@ body {
 	background-size: 100%;
 	background-position: center top;
 	overflow: hidden;
+	background-color: #902f47;
+	top: 0; right: 0; bottom: 0; left: 0;
+	
 
    
   }
@@ -376,6 +382,8 @@ body {
 	background-size: 100%;
 	background-position: center top;
 	overflow: hidden;
+	background-color: #902f47;
+	top: 0; right: 0; bottom: 0; left: 0;
 
   
   }
