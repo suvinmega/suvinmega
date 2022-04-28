@@ -1,4 +1,389 @@
-@-webkit-keyframes fall {
+
+
+.sakura {
+	/* background: -webkit-linear-gradient(120deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9));
+    background: linear-gradient(120deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9));*/
+	background: red;
+	pointer-events: none;
+	position: absolute
+}
+
+
+
+html, body {
+	
+
+	background-color: #902f47;
+	font-family: Arial, Helvetica, Sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.sakura {
+	background: #FFD700;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.bridegroomname{	
+	color:#f8de7e;
+	font-family: 'Dancing Script';
+	font-weight: 400;
+	font-size:60px;
+	text-shadow: 1px 1px 1px #000;
+	animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s; /* Opera */
+	margin-top: 35% !important;
+}
+
+.maintitle1 {
+	color:#f8de7e;
+	font-family:'Copperplate';
+	margin-top: 100px !important;
+}
+
+.maintitle2 {
+	color:#f8de7e;
+	font-family:'Copperplate';
+}
+
+.div1 {
+	clear:both;
+	background: url(../img/BG1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center top;
+	overflow: hidden;
+	background-color: #902f47;
+	top: 0; right: 0; bottom: 0; left: 0;
+	
+	height: 1784px;
+
+	
+	
+
+   
+  }
+  
+  .div2 {
+	clear:both;
+	background: url(../img/BG2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center top;
+	overflow: hidden;
+	background-color: #902f47;
+	top: 0; right: 0; bottom: 0; left: 0;
+	display:block;
+	height: 1784px;
+	display: flex;
+	margin-top: 10px;
+
+  
+  }
+
+
+  @media only screen and (max-device-width: 640px) {
+
+	.bridegroomname{	
+		color:#f8de7e;
+		font-family: 'Dancing Script';
+		font-weight: 400;
+		font-size:33px;
+		text-shadow: 1px 1px 1px #000;
+		animation: fadein 3s;
+		-moz-animation: fadein 3s; /* Firefox */
+		-webkit-animation: fadein 3s; /* Safari and Chrome */
+		-o-animation: fadein 3s; /* Opera */
+		margin-top: 5% !important;
+	}
+
+	.bridegroomname2{	
+		color:#f8de7e;
+		font-family: 'Dancing Script';
+		font-weight: 400;
+		font-size:33px;
+		text-shadow: 1px 1px 1px #000;
+		animation: fadein 3s;
+		-moz-animation: fadein 3s; /* Firefox */
+		-webkit-animation: fadein 3s; /* Safari and Chrome */
+		-o-animation: fadein 3s; /* Opera */
+		margin-top: 5% !important;
+	}
+
+	
+	
+	.maintitle1 {
+		color:#f8de7e;
+		font-family:'Copperplate';
+		margin-top: 37% !important;
+		font-size:10px !important;
+	}
+
+	.maintitle2 {
+		color:#f8de7e;
+		font-family:'Copperplate';
+		font-size:10px !important;
+		margin-top:10px;
+	}
+
+	.line {
+		width: 220px;
+	
+		border: 1px solid #f8de7e;
+	}
+
+	.and {
+		color:#f8de7e;
+		font-family:'Copperplate';
+		font-weight: lighter;
+		font-size:15px;
+		top: 0;
+	}
+
+	.date1 {
+		color:#f8de7e;
+		font-family:'Copperplate';
+		font-weight: lighter;
+		font-size:20px;
+		top: 0;
+	}
+
+	.time1 {
+		color:#f8de7e;
+		font-family:'Copperplate';
+		font-weight: lighter;
+		font-size:11px;
+		top: 0;
+	}
+
+	.scrolldown {
+		margin-top:50px;
+	
+	}
+
+	.venue1 {
+		color:#f8de7e;
+		font-family:'Copperplate';
+		font-weight: lighter;
+		font-size:10px;
+		top: 0;
+	}
+	
+	
+
+	
+	.div1 {
+		clear:both;
+		background: url(../img/BG1.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% ;
+		background-position: center top;
+		overflow: hidden;
+		
+		top: 0; right: 0; bottom: 0; left: 0;
+		
+		max-height: 560px;
+		
+		
+	
+	   
+	  }
+	  
+	  .div2 {
+		clear:both;
+		background: url(../img/BG2.jpg);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: center top;
+		overflow: hidden;
+		
+		top: 0; right: 0; bottom: 0; left: 0;
+		
+		max-height: 700px;
+		
+	
+	
+	  
+	  }
+}
+
+
+/*******************************/
+
+
+
+
+
+
+
+
+
+
+
+
+.happiness {
+	color: #874562;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 24px;
+}
+
+.twitter {
+	color: #874562;
+}
+
+.music {
+	display: none;
+}
+
+.actions {
+	display: flex;
+	font-size: 12px;
+	letter-spacing: 0pt;
+}
+
+.nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    display: flex;
+    overflow-x: auto;
+}
+
+.nav__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    min-width: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #444444;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.nav__link:hover {
+    background-color: #eeeeee;
+}
+
+.nav__link--active {
+    color: #009578;
+}
+
+.nav__icon {
+    font-size: 18px;
+}
+
+
+
+
+
+
+ .indicator {
+	position: relative;
+	width: 10px;
+	height: 10px;
+	transform: rotate(45deg);
+	opacity: 0.5;
+  }
+  .indicator span {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 3px solid #fff;
+	border-right: 3px solid #fff;
+	animation: animate 1s linear infinite;
+  }
+  .indicator span:nth-child(1) {
+	top: -30px;
+	left: -30px;
+	animation-delay: 0s;
+  }
+  .indicator span:nth-child(2) {
+	top: -15px;
+	left: -15px;
+	animation-delay: 0.2s;
+  }
+.indicator span:nth-child(3) {
+	top: 0;
+	left: 0;
+	animation-delay: 0.4s;
+  }
+.indicator span:nth-child(4) {
+	top: 15px;
+	left: 15px;
+	animation-delay: 0.6s;
+  }
+ .indicator span:nth-child(5) {
+	top: 30px;
+	left: 30px;
+	animation-delay: 0.8s;
+  }
+  @keyframes animate {
+	0% {
+	  border-color: #fff;
+	  transform: translate(0, 0);
+	}
+	20% {
+	  border-color: #fff;
+	  transform: translate(15px, 15px);
+	}
+	20.1%,
+	100% {
+	  border-color: #ffd64a;
+	}
+  }
+
+
+  @-webkit-keyframes fall {
 	0% {
 		opacity: 0.9;
 		top: 0
@@ -336,386 +721,4 @@
 		transform: rotate(82deg)
 	}
 }
-
-.sakura {
-	/* background: -webkit-linear-gradient(120deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9));
-    background: linear-gradient(120deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9));*/
-	background: red;
-	pointer-events: none;
-	position: absolute
-}
-
-
-
-html, body {
-	
-
-	background-color: #902f47;
-	font-family: Arial, Helvetica, Sans-serif;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-.sakura {
-	background: #FFD700;
-}
-
-@keyframes fadein {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-moz-keyframes fadein { /* Firefox */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-webkit-keyframes fadein { /* Safari and Chrome */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-o-keyframes fadein { /* Opera */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-.bridegroomname{	
-	color:#f8de7e;
-	font-family: 'Dancing Script';
-	font-weight: 400;
-	font-size:60px;
-	text-shadow: 1px 1px 1px #000;
-	animation: fadein 3s;
-    -moz-animation: fadein 3s; /* Firefox */
-    -webkit-animation: fadein 3s; /* Safari and Chrome */
-    -o-animation: fadein 3s; /* Opera */
-	margin-top: 35% !important;
-}
-
-.maintitle1 {
-	color:#f8de7e;
-	font-family:'Copperplate';
-	margin-top: 100px !important;
-}
-
-.maintitle2 {
-	color:#f8de7e;
-	font-family:'Copperplate';
-}
-
-.div1 {
-	clear:both;
-	background: url(../img/BG1.jpg);
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: center top;
-	overflow: hidden;
-	background-color: #902f47;
-	top: 0; right: 0; bottom: 0; left: 0;
-	
-	height: 1784px;
-
-	
-	
-
-   
-  }
-  
-  .div2 {
-	clear:both;
-	background: url(../img/BG2.jpg);
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: center top;
-	overflow: hidden;
-	background-color: #902f47;
-	top: 0; right: 0; bottom: 0; left: 0;
-	display:block;
-	height: 1784px;
-	display: flex;
-	margin-top: 10px;
-
-  
-  }
-
-
-  @media only screen and (max-device-width: 640px) {
-
-	.bridegroomname{	
-		color:#f8de7e;
-		font-family: 'Dancing Script';
-		font-weight: 400;
-		font-size:40px;
-		text-shadow: 1px 1px 1px #000;
-		animation: fadein 3s;
-		-moz-animation: fadein 3s; /* Firefox */
-		-webkit-animation: fadein 3s; /* Safari and Chrome */
-		-o-animation: fadein 3s; /* Opera */
-		margin-top: 5% !important;
-	}
-
-	.bridegroomname2{	
-		color:#f8de7e;
-		font-family: 'Dancing Script';
-		font-weight: 400;
-		font-size:40px;
-		text-shadow: 1px 1px 1px #000;
-		animation: fadein 3s;
-		-moz-animation: fadein 3s; /* Firefox */
-		-webkit-animation: fadein 3s; /* Safari and Chrome */
-		-o-animation: fadein 3s; /* Opera */
-		margin-top: 5% !important;
-	}
-
-	
-	
-	.maintitle1 {
-		color:#f8de7e;
-		font-family:'Copperplate';
-		margin-top: 40% !important;
-		font-size:10px !important;
-	}
-
-	.maintitle2 {
-		color:#f8de7e;
-		font-family:'Copperplate';
-		font-size:10px !important;
-		margin-top:10px;
-	}
-
-	.line {
-		width: 220px;
-	
-		border: 1px solid #f8de7e;
-	}
-
-	.and {
-		color:#f8de7e;
-		font-family:'Copperplate';
-		font-weight: lighter;
-		font-size:20px;
-		top: 0;
-	}
-
-	.date1 {
-		color:#f8de7e;
-		font-family:'Copperplate';
-		font-weight: lighter;
-		font-size:25px;
-		top: 0;
-	}
-
-	.time1 {
-		color:#f8de7e;
-		font-family:'Copperplate';
-		font-weight: lighter;
-		font-size:14px;
-		top: 0;
-	}
-
-	.scrolldown {
-		margin-top:50px;
-	
-	}
-
-	.venue1 {
-		color:#f8de7e;
-		font-family:'Copperplate';
-		font-weight: lighter;
-		font-size:10px;
-		top: 0;
-	}
-	
-	
-
-	
-	.div1 {
-		clear:both;
-		background: url(../img/BG1.jpg);
-		background-repeat: no-repeat;
-		background-size: 100% ;
-		background-position: center top;
-		overflow: hidden;
-		
-		top: 0; right: 0; bottom: 0; left: 0;
-		
-		max-height: 560px;
-		
-		
-	
-	   
-	  }
-	  
-	  .div2 {
-		clear:both;
-		background: url(../img/BG2.jpg);
-		background-repeat: no-repeat;
-		background-size: 100%;
-		background-position: center top;
-		overflow: hidden;
-		
-		top: 0; right: 0; bottom: 0; left: 0;
-		
-		max-height: 700px;
-		
-	
-	
-	  
-	  }
-}
-
-
-/*******************************/
-
-
-
-
-
-
-
-
-
-
-
-
-.happiness {
-	color: #874562;
-	font-size: 24px;
-	font-weight: bold;
-	text-align: center;
-	margin-bottom: 24px;
-}
-
-.twitter {
-	color: #874562;
-}
-
-.music {
-	display: none;
-}
-
-.actions {
-	display: flex;
-	font-size: 12px;
-	letter-spacing: 0pt;
-}
-
-.nav {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 55px;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
-    background-color: #ffffff;
-    display: flex;
-    overflow-x: auto;
-}
-
-.nav__link {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex-grow: 1;
-    min-width: 50px;
-    overflow: hidden;
-    white-space: nowrap;
-    font-family: sans-serif;
-    font-size: 13px;
-    color: #444444;
-    text-decoration: none;
-    -webkit-tap-highlight-color: transparent;
-    transition: background-color 0.1s ease-in-out;
-}
-
-.nav__link:hover {
-    background-color: #eeeeee;
-}
-
-.nav__link--active {
-    color: #009578;
-}
-
-.nav__icon {
-    font-size: 18px;
-}
-
-
-
-
-
-
- .indicator {
-	position: relative;
-	width: 10px;
-	height: 10px;
-	transform: rotate(45deg);
-	opacity: 0.5;
-  }
-  .indicator span {
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	box-sizing: border-box;
-	border: none;
-	border-bottom: 3px solid #fff;
-	border-right: 3px solid #fff;
-	animation: animate 1s linear infinite;
-  }
-  .indicator span:nth-child(1) {
-	top: -30px;
-	left: -30px;
-	animation-delay: 0s;
-  }
-  .indicator span:nth-child(2) {
-	top: -15px;
-	left: -15px;
-	animation-delay: 0.2s;
-  }
-.indicator span:nth-child(3) {
-	top: 0;
-	left: 0;
-	animation-delay: 0.4s;
-  }
-.indicator span:nth-child(4) {
-	top: 15px;
-	left: 15px;
-	animation-delay: 0.6s;
-  }
- .indicator span:nth-child(5) {
-	top: 30px;
-	left: 30px;
-	animation-delay: 0.8s;
-  }
-  @keyframes animate {
-	0% {
-	  border-color: #fff;
-	  transform: translate(0, 0);
-	}
-	20% {
-	  border-color: #fff;
-	  transform: translate(15px, 15px);
-	}
-	20.1%,
-	100% {
-	  border-color: #ffd64a;
-	}
-  }
   
