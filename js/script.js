@@ -20,7 +20,19 @@
  * Listen here: https://youtu.be/X0MDALpV29s
  *
  */
-$(document).on('click', function(){
+
+ $( document ).ready(function() {
+
+    $('#viewinvitation').modal({
+        backdrop: 'static',
+        keyboard: false
+    });
+
+    $('#viewinvitation').modal('show'); 
+    
+});
+
+$('#agree').on('click', function(){
     document.getElementById("my_audio").play();
 });
 
