@@ -120,104 +120,104 @@ html, body {
   @media only screen and (max-device-width: 640px) {
 
 	.bridegroomname{	
-		color:#f8de7e;
-		font-family: 'Dancing Script';
-		font-weight: 400;
-		font-size:33px;
-		text-shadow: 1px 1px 1px #000;
-		animation: fadein 3s;
-		-moz-animation: fadein 3s; /* Firefox */
-		-webkit-animation: fadein 3s; /* Safari and Chrome */
-		-o-animation: fadein 3s; /* Opera */
+		color:#f8de7e !important;
+		font-family: 'Dancing Script' !important;
+		font-weight: 400 !important;
+		font-size:33px !important;
+		text-shadow: 1px 1px 1px #000 !important;
+		animation: fadein 3s !important;
+		-moz-animation: fadein 3s !important; /* Firefox */
+		-webkit-animation: fadein 3s !important; /* Safari and Chrome */
+		-o-animation: fadein 3s !important; /* Opera */
 		margin-top: 5% !important;
 	}
 
 	.bridegroomname2{	
-		color:#f8de7e;
-		font-family: 'Dancing Script';
-		font-weight: 400;
-		font-size:33px;
-		text-shadow: 1px 1px 1px #000;
-		animation: fadein 3s;
-		-moz-animation: fadein 3s; /* Firefox */
-		-webkit-animation: fadein 3s; /* Safari and Chrome */
-		-o-animation: fadein 3s; /* Opera */
+		color:#f8de7e !important;
+		font-family: 'Dancing Script' !important;
+		font-weight: 400 !important;
+		font-size:33px !important;
+		text-shadow: 1px 1px 1px #000 !important;
+		animation: fadein 3s !important;
+		-moz-animation: fadein 3s !important; /* Firefox */
+		-webkit-animation: fadein 3s !important; /* Safari and Chrome */
+		-o-animation: fadein 3s !important; /* Opera */
 		margin-top: 5% !important;
 	}
 
 	
 	
 	.maintitle1 {
-		color:#f8de7e;
-		font-family:'Copperplate';
+		color:#f8de7e !important;
+		font-family:'Copperplate' !important;
 		margin-top: 37% !important;
 		font-size:10px !important;
 	}
 
 	.maintitle2 {
-		color:#f8de7e;
-		font-family:'Copperplate';
+		color:#f8de7e !important;
+		font-family:'Copperplate' !important;
 		font-size:10px !important;
-		margin-top:10px;
+		margin-top:10px !important;
 	}
 
 	.line {
-		width: 220px;
+		width: 220px !important;
 	
-		border: 1px solid #f8de7e;
+		border: 1px solid #f8de7e !important;
 	}
 
 	.and {
-		color:#f8de7e;
-		font-family:'Copperplate';
-		font-weight: lighter;
-		font-size:15px;
-		top: 0;
+		color:#f8de7e !important;
+		font-family:'Copperplate' !important;
+		font-weight: lighter !important;
+		font-size:15px !important;
+		top: 0 !important;
 	}
 
 	.date1 {
-		color:#f8de7e;
-		font-family:'Copperplate';
-		font-weight: lighter;
-		font-size:20px;
-		top: 0;
+		color:#f8de7e !important;
+		font-family:'Copperplate' !important;
+		font-weight: lighter !important;
+		font-size:20px !important;
+		top: 0 !important;
 	}
 
 	.time1 {
-		color:#f8de7e;
-		font-family:'Copperplate';
-		font-weight: lighter;
-		font-size:11px;
-		top: 0;
+		color:#f8de7e !important;
+		font-family:'Copperplate' !important;
+		font-weight: lighter !important;
+		font-size:11px !important;
+		top: 0 !important;
 	}
 
 	.scrolldown {
-		margin-top:50px;
+		margin-top:50px !important;
 	
 	}
 
 	.venue1 {
-		color:#f8de7e;
-		font-family:'Copperplate';
-		font-weight: lighter;
-		font-size:10px;
-		top: 0;
+		color:#f8de7e !important;
+		font-family:'Copperplate' !important;
+		font-weight: lighter !important;
+		font-size:10px !important;
+		top: 0 !important;
 	}
 	
 	
 
 	
 	.div1 {
-		clear:both;
-		background: url(../img/BG1.jpg);
-		background-repeat: no-repeat;
-		background-size: 100% ;
-		background-position: center top;
-		overflow: hidden;
+		clear:both !important;
+		background: url(../img/BG1.jpg) !important;
+		background-repeat: no-repeat !important;
+		background-size: 100%  !important;
+		background-position: center top !important;
+		overflow: hidden !important;
 		
-		top: 0; right: 0; bottom: 0; left: 0;
+		top: 0; right: 0; bottom: 0; left: 0 !important;
 		
-		max-height: 560px;
+		max-height: 560px !important;
 		
 		
 	
@@ -225,16 +225,16 @@ html, body {
 	  }
 	  
 	  .div2 {
-		clear:both;
-		background: url(../img/BG2.jpg);
-		background-repeat: no-repeat;
-		background-size: 100%;
-		background-position: center top;
-		overflow: hidden;
+		clear:both !important;
+		background: url(../img/BG2.jpg) !important;
+		background-repeat: no-repeat !important;
+		background-size: 100% !important;
+		background-position: center top !important;
+		overflow: hidden !important;
+	
+		top: 0; right: 0; bottom: 0; left: 0 !important;
 		
-		top: 0; right: 0; bottom: 0; left: 0;
-		
-		max-height: 700px;
+		max-height: 700px !important;
 		
 	
 	
