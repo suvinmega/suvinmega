@@ -721,4 +721,59 @@ html, body {
 		transform: rotate(82deg)
 	}
 }
+
+
+.img-size{
+	/* 	padding: 0;
+		margin: 0; */
+		margin: 0 auto;
+		width:auto;
+		background-position: center top !important;
+		height:360px;
+		background-size: cover ;
+		overflow: hidden;
+		
+	}
+	.modalc-content {
+	   width: 700px;
+	  border:none;
+	}
+	.modalc-body {
+	   padding: 0;
+	}
+	
+	.carousel-control-prev-icon {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23009be1' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+		width: 30px;
+		height: 48px;
+	}
+	.carousel-control-next-icon {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23009be1' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+		width: 30px;
+		height: 48px;
+	}
+
+	.waviy {
+		position: relative;
+	
+		font-size: 10px;
+	  }
+	  .waviy span {
+		font-family:'Arial';
+		position: relative;
+		display: inline-block;
+		color: maroon;
+		text-transform: uppercase;
+		animation: waviy 1s infinite;
+		animation-delay: calc(.1s * var(--i));
+		
+	  }
+	  @keyframes waviy {
+		0%,40%,100% {
+		  transform: translateY(0)
+		}
+		20% {
+		  transform: translateY(-20px)
+		}
+	  }
   
