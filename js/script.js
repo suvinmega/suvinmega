@@ -6,6 +6,9 @@
       $('.sakura-falling').sakura();
 })(jQuery);
 
+
+
+
 /**
  *
  * Despite so many new Bollywood and English song options, I prefered to use two-decade-old song, Din Shagna Da!
@@ -23,12 +26,18 @@
 
  $( document ).ready(function() {
 
+    window.addEventListener('load', function () {
+        $(".modalz").fadeOut(2000);
+        $('#viewinvitation').modal('show'); 
+      })
+
+  
+
+
     $('#viewinvitation').modal({
         backdrop: 'static',
         keyboard: false
     });
-
-    $('#viewinvitation').modal('show'); 
     
 });
 
@@ -113,5 +122,9 @@ const navigation_items_elms = document.querySelectorAll(
       navigation_pointer.style.left = lefPercent + "px";
     });
   });
+
+
+
+
 
 
