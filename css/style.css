@@ -60,7 +60,7 @@ html, body {
 }
 
 .sakura {
-	background: #FFD700;
+	background: #ebcf6a;
 }
 
 @keyframes fadein {
@@ -96,70 +96,9 @@ html, body {
     }
 }
 
-.bridegroomname{	
-	color:#f8de7e;
-	font-family: 'Dancing Script';
-	font-weight: 400;
-	font-size:60px;
-	text-shadow: 1px 1px 1px #000;
-	animation: fadein 3s;
-    -moz-animation: fadein 3s; /* Firefox */
-    -webkit-animation: fadein 3s; /* Safari and Chrome */
-    -o-animation: fadein 3s; /* Opera */
-	margin-top: 35% !important;
-}
-
-.maintitle1 {
-	color:#f8de7e;
-	font-family:'Copperplate';
-	margin-top: 100px !important;
-}
-
-.maintitle2 {
-	color:#f8de7e;
-	font-family:'Copperplate';
-}
-
-.div1 {
-	clear:both;
-	background: url(../img/BG1.jpg);
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: center top;
-	overflow: hidden;
-	background-color: #902f47;
-	top: 0; right: 0; bottom: 0; left: 0;
-	
-	height: 1784px;
-
-	
-	
-
-   
-  }
 
 
-
-  
-  .div2 {
-	clear:both;
-	background: url(../img/BG2.jpg);
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: center top;
-	overflow: hidden;
-	background-color: #902f47;
-	top: 0; right: 0; bottom: 0; left: 0;
-	display:block;
-	height: 1784px;
-	display: flex;
-	margin-top: 10px;
-
-  
-  }
-
-
-  @media only screen and (max-device-width: 640px) {
+  @media only screen and (max-device-width: 740px) {
 
 	html, body {
 	
@@ -198,6 +137,17 @@ html, body {
 		margin-top: 5% !important;
 	}
 
+	.reception {
+		text-align:center;
+		color:#f8de7e !important;
+		margin:0 auto;
+		margin-top:10px;
+		float:center;
+		
+		font-size:14px !important;
+		width:80%;
+	}
+
 	
 	
 	.maintitle1 {
@@ -212,6 +162,14 @@ html, body {
 		font-family:'Copperplate' !important;
 		font-size:10px !important;
 		margin-top:10px !important;
+	}
+
+	.maintitle3 {
+		color:#f8de7e !important;
+		font-family:'Copperplate' !important;
+		margin-top: 50% !important;
+		font-size:10px !important;
+		
 	}
 
 	.line {
@@ -275,18 +233,15 @@ html, body {
 		clear:both !important;
 		background: url(../img/BG2.jpg) !important;
 		background-repeat: no-repeat !important;
-		background-size: 100% !important;
+		background-size: 100%  !important;
 		background-position: center top !important;
 		overflow: hidden !important;
-	
 		top: 0; right: 0; bottom: 0; left: 0 !important;
-		
-		max-height: 510px !important;
-		
-	
-	
+		height: 530px !important;
+		margin-top:20px;
 	  
 	  }
+	  
 }
 
 
